@@ -1,1 +1,1 @@
-// Hey 👋
+import './style.css';
