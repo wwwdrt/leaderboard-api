@@ -1,8 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="drtcode.png" alt="logo" width="140"  height="auto" />
   <br/>
 
 <h3><b>Leaderboard</b></h3>
@@ -17,7 +16,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -75,16 +73,6 @@
 - **Submit your score.**
 - **Data persistence.**
 - **Utilizes an external API.**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Link to deployed project.
-
-- [Live Demo Link](https://wwwdrt.github.io/leaderboard-api/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

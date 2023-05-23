@@ -2,7 +2,7 @@
   "name": "leaderboard-api",
   "version": "1.0.0",
   "description": "<a name=\"readme-top\"></a>",
-  "main": "html-css-js.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open",
