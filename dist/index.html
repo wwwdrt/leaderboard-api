@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Leaderboard</title>
+<script defer src="main.bundle.js"></script></head>
+<body>
+  <h1>Leaderboard</h1>
+    <div id="leaderboard">
+      <div id="refresh">
+        <h2>Recent scores</h2>
+        <button type="submit" class="refresh-btn" tabindex="0" aria-label="refresh">Refresh</button>
+      </div>
+      <ul id="scores">
+        <li>Name: 100</li>
+        <li>Name: 20</li>
+        <li>Name: 50</li>
+        <li>Name: 78</li>
+        <li>Name: 125</li>
+        <li>Name: 77</li>
+        <li>Name: 42</li>
+      </ul>
+    </div>
+  <div id="add-score">
+    <h3>Add your score</h3>
+    <input type="text" name="name" id="name" placeholder="Your name" maxlength="30" required>
+    <input type="text" name="text" id="score" placeholder="Your score" maxlength="30" required>
+    <button type="submit" class="submit-btn" tabindex="0" aria-label="submit">Submit</button>
+  </div>
+  <script type="module" src="main.bundle.js"></script>
+</body>
+</html>
