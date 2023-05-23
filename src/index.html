@@ -7,26 +7,27 @@
   <title>Leaderboard</title>
 </head>
 <body>
-  <!-- RECENT SCORES -->
-  <section id="recent-scores">
-    <h1>Leaderboard</h1>
-    <div id="leaderboard">
+  <h1>Leaderboard</h1>
+
+  <section id="leaderboard">
+    <!-- RECENT SCORES -->
+    <article id="recent-scores">
       <div id="refresh">
         <h2>Recent scores</h2>
         <button type="button" id="refresh-btn" tabindex="0" aria-label="refresh">Refresh</button>
       </div>
       <ul id="scores"></ul>
-    </div>
-  </section>
+    </article>
 
-  <!-- ADD SCORE -->
-  <section id="add-score">
-    <h3>Add your score</h3>
-    <form id="score-form">
-      <input type="text" name="name" id="name" placeholder="Your name" maxlength="30" required>
-      <input type="text" name="score" id="score" placeholder="Your score" maxlength="30" required>
-      <button type="submit" id="submit-btn" tabindex="0" aria-label="submit">Submit</button>
-    </form>
+    <!-- ADD SCORE -->
+    <div id="add-score">
+      <h3>Add your score</h3>
+      <form id="score-form">
+        <input type="text" name="name" id="name" placeholder="Your name" maxlength="30" required>
+        <input type="text" name="score" id="score" placeholder="Your score" maxlength="30" required>
+        <button type="submit" id="submit-btn" tabindex="0" aria-label="submit">Submit</button>
+      </form>
+    </div>
   </section>
 
 <script type="module" src="main.bundle.js"></script>
